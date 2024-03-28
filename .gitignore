@@ -5,7 +5,12 @@ __pycache__/
 
 # C extensions
 *.so
-
+train.cache
+val.cache
+train.txt
+val.txt
+classes.names
+labels
 # Distribution / packaging
 .Python
 build/
@@ -60,7 +65,7 @@ isd_data_mini.zip
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
-
+images/
 # Flask stuff:
 instance/
 .webassets-cache
